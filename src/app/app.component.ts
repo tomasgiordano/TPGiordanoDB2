@@ -12,7 +12,7 @@ export class AppComponent {
   title = 'TPGiordanoDB2';
   jsonResponse : any;
   userUrl = "";
-  urlServer = "https://tp-giordano-db2.herokuapp.com/";
+  urlServer = "https://tp-giordano-db2.herokuapp.com";
 
     constructor(private http: HttpClient) {
     this.userUrl=this.urlServer;
