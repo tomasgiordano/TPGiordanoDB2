@@ -13,7 +13,9 @@
     <div class="response">
         <h1>La respuesta del servidor</h1>
         <div class="jsonResponse" *ngIf="jsonResponse">
-            <div [innerHTML]="jsonResponse | prettyJson"></div>
+            <div>
+                <p> {{jsonResponse}} </p>
+            </div>
         </div>
     </div>
 </div>
